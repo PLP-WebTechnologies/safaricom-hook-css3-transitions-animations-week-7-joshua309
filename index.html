@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Interactive Web Page with Transitions and Animations</h1>
+
+  <h2>Part 1: Hover Effects and Animations</h2>
+
+  <!-- Hover elements -->
+  <div class="box">Hover me!</div>
+  <div class="circle">Hover me!</div>
+
+  <!-- Animated elements -->
+  <div class="banner">Animated Banner</div>
+  <div class="spinner"></div>
+
+  <h2>Part 2: JavaScript Functions</h2>
+
+  <!-- Spinner toggle button -->
+  <button class="toggle-btn">Start/Stop Spinner</button>
+
+  <!-- Area calculator -->
+  <div>
+    <label for="length">Length:</label>
+    <input type="number" id="length">
+    <label for="width">Width:</label>
+    <input type="number" id="width">
+    <button onclick="calculateArea()">Calculate Area</button>
+    <p id="result"></p>
+  </div>
+
+  <h2>Part 3: Trigger Animation</h2>
+  <button onclick="triggerBannerAnimation()">Trigger Banner Animation</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
